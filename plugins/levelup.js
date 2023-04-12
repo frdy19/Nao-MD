@@ -27,22 +27,22 @@ Kurang *${max - user.exp}* lagi! ✨
     if (before !== user.level) {
         let teks = `.             ${user.role}`
         let str = `
-*🎉 C O N G R A T S 🎉*
+*🎉 𝗦 𝗘 𝗟 𝗔 𝗠 𝗔 𝗧🎉*
 *${before}* ➔ *${user.level}* [ *${user.role}* ]`.trim()
         try {
         const img = await levelup(teks, user.level)
-            conn.send3ButtonImg(m.chat, await(await fetch(hh)).buffer(), `Cᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ, Aɴᴅᴀ Tᴇʟᴀʜ Nᴀɪᴋ Lᴇᴠᴇʟ!!\n⚙ Lᴇᴠᴇʟ : ${user.level}\n⚙ Rᴏʟᴇ : ${user.role}`, botdate, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+            conn.send3ButtonImg(m.chat, await(await fetch(hh)).buffer(), `𝗦𝗘𝗟𝗔𝗠𝗔𝗧, ᴀɴᴅᴀ ᴛᴇʟᴀʜ ɴᴀɪᴋ ʟᴇᴠᴇʟ!!\n⚙ Lᴇᴠᴇʟ : ${user.level}\n⚙ Rᴏʟᴇ : ${user.role}`, botdate, 'ᴍᴇɴᴜ', '.menu', 'ᴏᴡɴᴇʀ', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     description: sgc,
-    title: "Nao Botz",
+    title: "𝗫𝗙𝗲𝗿𝗱 𝗕𝗢𝗧",
     body: wm,
     thumbnail: await(await fetch(pp)).buffer(),
     sourceUrl: sgc
    }}})
         } catch (e) {
        /*     conn.sendButton(m.chat, str, botdate, [['INVENTORY', '.inv']], m)*/
-            conn.send3ButtonImg(m.chat, await(await fetch(hh)).buffer(), `Cᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ, Aɴᴅᴀ Tᴇʟᴀʜ Nᴀɪᴋ Lᴇᴠᴇʟ!!`, botdate, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+            conn.send3ButtonImg(m.chat, await(await fetch(hh)).buffer(), `𝗦𝗘𝗟𝗔𝗠𝗔𝗧, ᴀɴᴅᴀ ᴛᴇʟᴀʜ ɴᴀɪᴋ ʟᴇᴠᴇʟ!!`, botdate, 'ᴍᴇɴᴜ', '.menu', 'ᴏᴡɴᴇʀ', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     description: sgc,
-    title: "Nao Botz",
+    title: "𝗫𝗙𝗲𝗿𝗱 𝗕𝗢𝗧",
     body: wm,
     thumbnail: await(await fetch(pp)).buffer(),
     sourceUrl: sgc
